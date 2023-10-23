@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="index.css"> 
         <title>Web Vật Lý</title>
-        <p style="color: red">THÔNG TIN VỀ NHÓM PHÁT TRIỂN TRANG WEB:))</p>
-        <p style="align-items: center;">NGUYỄN THÁI DƯƠNG</p>
+        <style>
+        </style>
+        <style>
+            * {
+                font-size: 18px;
+            }
+            </style>
     </head>
     <body>
-        <h1 style="color: orange">Bài 1: Dao động điều hòa</h1>
-        <h2 style="color: magenta">I. Lí thuyết dao động điều hòa</h2>
+        <center>THÔNG TIN VỀ NHÓM PHÁT TRIỂN</center>
+        <center style="color : red">NGUYỄN THÁI DƯƠNG(P3T3R)     LƯU KHANG THỊNH     NGUYỄN MẠNH HÙNG(TheKronosGod)</center>
+        <div class="flex-row">
+            <img class="inlin-img" src="images/NTD.jpg">
+            <img class="inlin-img" src="images/LKT.jpg">
+            <img class="inlin-img" src="images/NMH.jpg">
+        </div>
+        <br>
+        <h1 style="color: orange;font-weight: bold;">Bài 1: DAO ĐỘNG ĐIỀU HÒA</h1>
+        <h2 style="color: magenta;font-weight: bold;">I. GIAO ĐỘNG ĐIỀU HÒA LÀ GÌ?</h2>
         <p style="font-weight: bold; color: red">Dao động cơ và dao động tuần hoàn là gì?</p>
         <p>- <b>Dao động cơ:</b> Là chuyển động qua lại quanh một vị trí đặc biệt <i>(gọi là vị trí cân bằng)</i>.</p>
         <p>- <b>Dao động tuần hoàn:</b> là dao động mà trạng thái của vật được lặp lại như cũ sau khoảng thời gian bằng nhau <i>(trạng thái chuyển động là hướng chuyển động và vị trí chuyển động)</i>.</p>
         <p>*<b>Dao động điều hòa<i>(quan trọng nhất):</i></b> dao động trong đó vị trí của vật <i>(hay còn gọi là li độ, đơn vị x)</i> được biểu hiện theo hàm cosin hay sin của thời gian <i>đơn vị là s</i></p>
-        <img style="width:1000px" src="images/Sodo.jpg">
+        <div class="flex-row">
+            <img src="images/meme1.jpg">
+            <img style="width:800px" src="images/Sodo.jpg">
+            <img src="images/meme2.jpg">
+        </div>
         <h3 style="font-weight: bold; color: magenta">II. PHƯƠNG TRÌNH DAO ĐỘNG ĐIỀU HÒA</h3>
-        <p style="font-weight: bold; align-self: center; color: yellow"><b>x = Acos(ωt + φ) </b><i style="color: black">(φ là phi 0, không biết tìm cái kí hiệu phi không ở đâu nên dùng tạm cái này)  </i><b style="color: black">:))))</b></p>
+        <p style="font-weight: bold; align-self: center; color: yellow"><b>x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>)</p>
         <p style="color: purple;">Giải thích kí hiệu</p>
         <p style="color: green">x: li độ của vật (đơn vị: cm)</p>
         <p style="color: grey">A: li độ cực đại của vật <b>(hay còn gọi là biên độ) </b>(đơn vị: cm)</p>
         <p style="color: rgb(52, 158, 158)">ω: tần số góc (đơn vị: rad/s), rad là viết tắt của radian; là một đơn vị đo thay cho độ</p>
-        <p style="color: blue">φ: pha ban đầu của dao động, với ωt + φ là pha dao động có biến số t</p>
+        <p style="color: blue">φ<sub style="font-size: 11px">0</sub>: pha ban đầu của dao động, với ωt + φ<sub style="font-size: 11px">0</sub> là pha dao động có biến số t</p>
         <h4 style="color: magenta">III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</h4>
         <p style="color: green"><b>1. Đại lượng liên hệ của dao động</b></p>
         <p>- <b>Chu kì T:</b> khoảng thời gian để vật thực hiện được 1 dao động toàn phần, đơn vị s</p>
@@ -30,25 +48,34 @@
         <p style="color: blueviolet"><b>Chiều dài quỹ đạo chuyển động của vật trong dao động điều hòa là L = 2A</b></p>
         <p style="color: blueviolet"><b>Quãng đường vật đi được sau 1 chu kì là S = 4A</b></p>
         <p style="color: green; font-weight: bold;"><b>2.VẬN TỐC CỦA DAO ĐỘNG</b></p>
-        <p style="font-weight: bold; color: brown;"><b>v = -ωAsin(ωt + φ)</b></p>
+        <p style="font-weight: bold; color: brown;"><b>v = -ωAsin(ωt + φ<sub style="font-size: 11px">0</sub>)</b></p>
         <p style="font-weight: bold; color:red">LƯU Ý:</p>
         <p style="color: blue">Để so sánh được độ lệch pha của 2 phương trình liên quan đến 2 đại lượng khác nhau ta có thể áp dụng công thức lượng giác của toán học để biến đổi hàm sin thành cosin</p>
-        <p style="font-weight: bold; color: brown;"> v = -ωAsin(ωt + φ) = ωAcos(ωt + φ + π/2)</p>
+        <p style="font-weight: bold; color: brown;"> v = -ωAsin(ωt + φ<sub style="font-size: 11px">0</sub>) = ωAcos(ωt + φ<sub style="font-size: 11px">0</sub> + π/2)</p>
         <p>Vậy ta có thể kết luận rằng vận tốc nhanh pha hơn li độ một góc π/2</p>
         <img style="width:1000px" src="images/Sodo2.png">
-        <p>Qua hình so sánh 2 sơ đồ, ta có thể thấy rằng khi vật ở vị trí biên trong dao động, vật sẽ đạt tốc độ là 0 cm/s và khi vật ở vị trí cân bằng, ta nhận được vận tốc cực đại với công thức liên hệ quan trọng sau: <b style="color: red">vmax = ωA</b></p>
+        <p>Qua hình so sánh 2 sơ đồ, ta có thể thấy rằng khi vật ở vị trí biên trong dao động, vật sẽ đạt tốc độ là 0 cm/s và khi vật ở vị trí cân bằng, ta nhận được vận tốc cực đại với công thức liên hệ quan trọng sau: <b style="color: red">v<sub>max</sub> = ωA</b></p>
         <p style="color: green; font-weight: bold;">3. GIA TỐC CỦA DAO ĐỘNG</p>
-        <p style="color: brown"><b>a = -ω^2Acos(ωt + φ)</b></p>
+        <p style="color: brown"><b>a = -ω<sup>2</sup>cos(ωt + φ<sub style="font-size: 11px">0</sub>)</b></p>
         <p style="color: red">LƯU Ý:</p>
         <p>a là gia tốc của vật theo thời gian, là đại lượng đặc trưng cho sự thay đổi vận tốc (công thức a = v/t), vậy nên khác với biên độ của vật </p>
-        <p style="font-weight: bold; color: brown;"> a = -ω^2Acos(ωt + φ) = ω^2Acos(ωt + φ + π)</p>
+        <p style="font-weight: bold; color: brown;"> a = -ω<sup>2</sup>Acos(ωt + φ<sub style="font-size: 11px">0</sub>) = ω<sup>2</sup>Acos(ωt + φ<sub style="font-size: 11px">0</sub> + π)</p>
         <p>Vậy gia tốc ngược pha với vận tốc</p>
         <p style="color: magenta">Đặc điểm đặc biệt của gia tốc:</p>
         <p>+ Gia tốc luôn có vectơ hướng về vị trí cân bằng</p>
         <p>+ Độ lớn của gia tốc luôn tỉ lệ với độ lớn của li độ (|x|=|a|)</p>
         <p>+ Khác với vận tốc, gia tốc luôn có giá trị cực đại tại 2 biên và có giá trị là 0 tại vị trí cân bằng</p>
-        <p>+ amax = ω^2A, amin = -ω^2A</p>
+        <p>+ a<sub>max</sub> = ω<sup style="font-size: 11px">2</sup>A, a<sub>min</sub> = -ω<sup style="font-size: 11px">2</sup>A</p>
         <img style="width: 1000px" src="images/1634289189085_Untitled_video_‐_Made_with_Clipchamp.gif">
-        
+        <p>+ Công thức liên hệ giữa x,A,v hay A,a,v độc lộc với thời gian</p>
+        <p>x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>) => cos(ωt + φ<sub style="font-size: 11px">0</sub>) = x/A (1)</p>
+        <p>v = -ωAsin(ωt + φ<sub style="font-size: 11px">0</sub>) => sin(ωt + φ<sub style="font-size: 11px">0</sub>) = -v/Aω (2)</p>
+        <p>a = -ω<sup>2</sup>Acos(ωt + φ<sub style="font-size: 11px">0</sub>) => cos(ωt + φ<sub style="font-size: 11px">0</sub>) = -a/ω<sup>2</sup>A (3)</p>
+        <p>Từ (1) và (2) ta có công thức liên hệ:</p>
+        <p>cos<sup>2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) + sin<sup>2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) = (x/A)<sup>2</sup> + (-v/Aω)<sup>2</sup> = 1</br></p>
+        <p>Ta có thể thấy được từ (1) và (3) => x/A = -a/ω<sup>2</sup>A</p>
+        <p>Vậy có thể suy ra được từ (2) và (3):</br></p>
+        <p>cos<sup>2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) + sin<sup>2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) = (a/Aω<sup>2</sup>)<sup>2</sup> + (v/Aω)<sup>2</sup> = 1</p>
+        <p></p>
     </body>
 </html>
