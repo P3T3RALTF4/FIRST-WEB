@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+/* .inlin-img{
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+.inlin-img img{
+    height: 300px;
+    
+} */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    height: 10rem;
+}
+
+.flex-row img {
+    height: 100%;
+    width: auto;
+}
