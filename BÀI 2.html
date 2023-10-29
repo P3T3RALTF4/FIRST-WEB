@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <title>BÀI 2</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: false}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
     <link rel="stylesheet" type="text/css" href="index.css"> 
     <script src="index.js"></script>
+    <style>
+        * {
+            font-size: 20px;
+        }
+        </style>
 </head>
 <body>
-    
+    <h1 style="color: orange">BÀI 2: NĂNG LƯỢNG TRONG DAO ĐỘNG ĐIỀU HÒA</h1>
+    <div class="sidebar">
+            <ul>
+                <b style="color: red">MỤC LỤC</b>
+                <li><a href="#"><i>I. GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
+                <li><a herf="#"><i>II. PHƯƠNG TRÌNH GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
+                <li><a herf="#"><i>III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
+            </ul>
+    </div>
+    <h2 style="color: magenta"><b>I.THẾ NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</b></h2>
+    <p>- Thế năng trong dao động điều hòa được tính theo công thức:</p>
+    <p style="color: red"><b>W<sub>t</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px;">2</sup>x<sup style="font-size:11px;">2</sup> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px">2</sup>A<sup style="font-size:11px">2</sup>cos<sup style="font-size:11px">2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>)</b></p>\
+    <b>VÌ x = Acos(ωt + φ)</b>
+    <img src="images/DOTHITHENANG.png" style="width:600px">
+    <p></p>
 </body>
 </html>
