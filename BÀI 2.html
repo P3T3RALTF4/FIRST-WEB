@@ -2,19 +2,20 @@
 <head>
     <title>BÀI 2</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
           // customised options
           // • auto-render specific keys, e.g.:
-          delimiters: [
+            delimiters: [
               {left: '$$', right: '$$', display: false}
           ],
           // • rendering keys, e.g.:
-          throwOnError : false
+            throwOnError : false
         });
+        
     });
 </script>
     <link rel="stylesheet" type="text/css" href="index.css"> 
@@ -26,23 +27,30 @@
         </style>
 </head>
 <body>
-    <h1 style="color: orange">BÀI 2: NĂNG LƯỢNG TRONG DAO ĐỘNG ĐIỀU HÒA</h1>
+    <center style="color: orange">BÀI 2: NĂNG LƯỢNG TRONG DAO ĐỘNG ĐIỀU HÒA</center>
     <div class="sidebar">
             <ul>
                 <b style="color: red">MỤC LỤC</b>
-                <li><a href="#"><i>I. GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
-                <li><a herf="#"><i>II. PHƯƠNG TRÌNH GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
-                <li><a herf="#"><i>III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
+                <li><a href="#phan1" onclick="topFunction1()" id="myBtn1"><i>I.ĐỘNG NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
+                <li><a herf="#phan2" onclick="topFunction2()" id="myBtn2"><i>II.THẾ NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
+                <li><a herf="#phan3"><i>III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
             </ul>
     </div>
-    <h2 style="color" magenta"><b>I.ĐỘNG NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</b></h2>
-    <p></p>
+    <h2 style="color: magenta" ><b>I.ĐỘNG NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</b></h2>
+    <p>- Động năng trong dao động điều hòa được xác định theo công thức:</p>
+    <p style="color: red; font-size: 25px"><b>W<sub style="font-size: 11px">đ</sub> = <span>$$\frac{1}{2}$$</span>mv<sub style="font-size: 11px">2</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px;">2</sup>(A<sup style="font-size:11px;">2</sup> - x<sup style="font-size:11px;">2</sup>)</b></p>
+    <div class="flex-row">
+        <img style="width: 200px" src="images/meme.gif">
+        <img style="width: 400px" src="images/DOTHIDONGNANG.png">
+        <img style="width: 200px" src="images/cockroach.gif">
+    </div>
+    <p><b>+ Ở biên:</b> v = 0 => W<sub style="font-size: 11px">đ</sub> = 0</p>
+    <p><b>+ Ở vị trí cân bằng:</b> v đạt cực đại => W<sub style="font-size: 11px">đ</sub> đạt cực đại</p>
+    <p><b>+ Khi vật đi từ vị trí cân bằng đến biên độ:</b> v giảm dần => W<sub style="font-size: 11px">đ</sub> giảm dần từ cực đại xuống 0</p>
+    <p><b>+ Khi vật đi từ biên độ về vị trí cân bằng:</b> v tăng dần => W<sub style="font-size: 11px">đ</sub> tăng dần từ 0 lên đến cực đại</p>
     <h3 style="color: magenta"><b>II.THẾ NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</b></h2>
     <p>- Thế năng trong dao động điều hòa được tính theo công thức:</p>
-    <p style="color: red"><b>W<sub>t</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px;">2</sup>x<sup style="font-size:11px;">2</sup> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px">2</sup>A<sup style="font-size:11px">2</sup>cos<sup style="font-size:11px">2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) <i style="color: blue">vì x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>)</i></b></p>\
-    <div class="flex-row">
-
-    </div>
+    <center style="color: red"><b>W<sub style="font-size: 11px">t</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px;">2</sup>x<sup style="font-size:11px;">2</sup> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px">2</sup>A<sup style="font-size:11px">2</sup>cos<sup style="font-size:11px">2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) <i style="color: blue">vì x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>)</i></b></center>
     <p></p>
 </body>
 </html>
