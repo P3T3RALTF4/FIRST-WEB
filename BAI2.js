@@ -1,17 +1,17 @@
-let mybutton1 = document.getElementById("myBtn1");
-function topFunction1() {
+let mybutton1 = document.getElementById("MyBtn1");
+function TopFunction1() {
     document.documentElement.scrollTop = 165;
 }
-let mybutton2 = document.getElementById("myBtn2");
-function topFunction2() {
+let mybutton2 = document.getElementById("MyBtn2");
+function TopFunction2() {
     document.documentElement.scrollTop = 750;
 }
-let mybutton3 = document.getElementById("myBtn3");
-function topFunction3() {
+let mybutton3 = document.getElementById("MyBtn3");
+function TopFunction3() {
     document.documentElement.scrollTop = 1340;
 }
-let mybutton4 = document.getElementById("myBtn4") 
-function topFunction4() {
+let mybutton4 = document.getElementById("MyBtn4") 
+function TopFunction4() {
     document.documentElement.scrollTop = 2000;
 }
 let Backbutton1 = document.getElementById("backbtn1")
