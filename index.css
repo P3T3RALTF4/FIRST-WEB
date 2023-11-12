@@ -56,19 +56,19 @@
   font-weight: bold;
   margin: 10px;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .heading_2 {
   color: #87C4FF;
   font-weight: bold;
-  margin: 25px;
+  margin: 30px;
 }
 .important_1{
   color: red  ;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
+  font-size: 26px;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
