@@ -24,29 +24,6 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-
-.heading_1 {
-  color: #39A7FF;
-  font-weight: bold;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.heading_2 {
-  color: #FF90C2;
-  font-weight: bold;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-}
-.important_1{
-  color: red  ;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-}
 *{
   box-sizing: border-box;
 }
@@ -84,7 +61,7 @@
 .heading_2 {
   color: #87C4FF;
   font-weight: bold;
-  margin: 20px;
+  margin: 25px;
 }
 .important_1{
   color: red  ;
@@ -108,7 +85,7 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 180px;
+  width: 150px;
   background-color: black;
   position: fixed;
   height: 100%;
