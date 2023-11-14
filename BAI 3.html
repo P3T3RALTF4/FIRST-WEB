@@ -2,43 +2,45 @@
 <head>
     <title>BÀI 3</title>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">VẬT LÝ 11</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeFunction1()" id="CBtn1">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="Bai 1.html">BÀI 1</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="BAI 2.html">BÀI 2</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VẬT LÝ 11</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeFunction1()" id="CBtn1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="BAI 2.html">BÀI 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bai 3.html">BÀI 3</a> 
+            </li>
+            <nav class="dropdown">
+              <li>
+                <a href="#">MỤC LỤC</a>
+                <ul>
+                  <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1">I</a></li>
+                   <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2">II</a></li>
+                   <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3">III</a></li>
+                </ul>
               </li>
-            </ul>
-          </div>
+            </nav>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css"> 
     <script src="BAI1.js"></script>
     <title>BÀI 1</title>
    <style>*{font-size:20px}
     body {
-      background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,0.9193802521008403) 12%, rgba(254,255,0,1) 12%, rgba(2,238,235,0.9726015406162465) 71%);
+      background: rgb(255,110,217);
+background: linear-gradient(90deg, rgba(255,110,217,1) 0%, rgba(106,190,234,1) 55%, rgba(0,255,222,1) 100%);  
     }
   </style>
 </head>
 <body>
-    <div class="sidebar">
-        <ul>
-            <b style="color: #F875AA">MỤC LỤC</b>
-            <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1"><i>I. DAO ĐỘNG ĐIỀU HÒA</i></a></li>
-            <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2"><i>II. PHƯƠNG TRÌNH GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
-            <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3"><i>III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
-        </ul>
-    </div>
     <div class="content">
         <h1 class="heading_1">BÀI 3: DAO ĐỘNG TẮT DẦN VÀ HIỆN TƯỢNG CỘNG HƯỞNG</h1>
         <h2 class="heading_2">I.DAO ĐỘNG TẮT DẦN</h2>
@@ -63,13 +65,27 @@ background: linear-gradient(90deg, rgba(0,0,0,0.9193802521008403) 12%, rgba(254,
         <p>- Dao động cưỡng bức có biên độ không đổi và có tần số bằng tần số của lực cưỡng bức</p>
         <p>- Biên độ của dao động cưỡng bức phụ thuộc vào biên độ ngoại lực, độ lớn lực cản của môi trường, độ chênh lệch giữa tần số của ngoại lực và tần số riêng của hệ dao động</p>
         <div class="flex-row">
-          <img src="images/cuongbuc(1).png" style="width: 250px;">
-          <img src="images/640px-Spring_resonance_simple.gif" style="width: 300px">
+          <img src="images/cuongbuc(1).png" style="width: 400px;">
+          <img src="images/640px-Spring_resonance_simple.gif" style="width: 300px; padding-left: 50px">
         </div>
         <h2 class="heading_2">III.HIỆN TƯỢNG CỘNG HƯỞNG</h2>
-        <p class="important_1">1.ĐỊNH NGHĨA</p>
-        <p>- Hiện tượng biên độ dao động cưỡng bức tăng đến giá trị cực đại khi tần sồ cửa lực cưỡng bức tiến đến bằng tần số riêng f0 của hệ dao động gọi là hiện tượng cộng hưởng</p>
-        
+             <p class="important_1">1.ĐỊNH NGHĨA</p>
+             <p>- Hiện tượng biên độ dao động cưỡng bức tăng đến giá trị cực đại khi tần sồ cửa lực cưỡng bức tiến đến bằng tần số riêng f<sub class="bruh">0</sub> của hệ dao động gọi là hiện tượng cộng hưởng</p>
+        <div class="flex-row">
+              <img src="images/CONGHUONG(1).png" style="width: 400px">
+              <img src="images/CONGHUONG(2).jpg" style="width: 300px; padding-left: 20px;">
+        </div>
+               <p class="important_1">2.GIẢI THÍCH</p>
+                <p>- Khi tần số của lực cưỡng bức bằng tần số riêng của hệ dao động thì hệ được cung cấp năng lượng một cách nhịp nhàng, đúng lúc, do đó biên độ dao động của hệ tăng lên</p>
+               <p>- Biên độ dao động đạt tới giá trị cực đại khi tốc độ tiêu hao năng lượng do ma sát bằng tốc độ cung cấp năng lượng cho hệ</p>
+        <p class="important_1">3.ỨNG DỤNG</p>
+              <p class="important_2">GẢY ĐÀN GHI-TA</p>
+                  <p>- Hộp cộng hưởng có vai trò giúp cho không khí trong hộp có thể dao động cộng hưởng với những tần số dao động khác nhau của dây đàn</p>
+              <p class="important_2">Chiếc li thuỷ tinh đặt gần một chiếc loa công suất lớn, li thuỷ tinh bị vỡ khi loa phát ra âm thanh tương đối lớn</p>  
+              <p class="important_2">Hoạt động của lò vi sóng</p>  
+         <div class="flex-row">
+          <img 
+         </div>     
       </div>
 </body>
 </html>
