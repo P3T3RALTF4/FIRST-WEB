@@ -3,28 +3,41 @@
     <title>BÀI 2</title>
     <style>
       body {
-        background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgba(158,167,4,1) 52%, rgba(5,189,109,1) 96%);
+        background: rgb(112,255,217);
+background: linear-gradient(90deg, rgba(112,255,217,1) 0%, rgba(0,117,255,1) 100%);
       }
     </style>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">VẬT LÝ 11</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeFunction1()" id="CBtn1">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="BAI 1.html">BÀI 1</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VẬT LÝ 11</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="ChangeFunction1()" id="CBtn1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="BAI 1.html">BÀI 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bai 3.html">BÀI 3</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bai 4.html">BÀI 4</a> 
+            </li>
+            <nav class="dropdown">
+              <li>
+                <a href="#" style="color:#F875AA">MỤC LỤC</a>
+                <ul>
+                  <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1">I</a></li>
+                   <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2">II</a></li>
+                   <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3">III</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Bai 3.html">BÀI 3</a>
-              </li>
-            </ul>
-          </div>
+            </nav>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
@@ -51,14 +64,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgb
     </style>
 </head>
 <body>
-  <div class="sidebar">
-    <ul>
-        <b style="color: #F875AA">MỤC LỤC</b>
-        <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1"><i>I. DAO ĐỘNG ĐIỀU HÒA</i></a></li>
-        <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2"><i>II. PHƯƠNG TRÌNH GIAO ĐỘNG ĐIỀU HÒA</i></a></li>
-        <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3"><i>III. CÁC ĐẠI LƯỢNG QUAN TRỌNG TRONG DAO ĐỘNG ĐIỀU HÒA</i></a></li>
-    </ul>
-</div>
   <div class="content">
     <h1 class="heading_1">BÀI 2: NĂNG LƯỢNG TRONG DAO ĐỘNG ĐIỀU HÒA</h1>
     <h2 class="heading_2" >I.ĐỘNG NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</h2>
@@ -73,7 +78,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgb
     <p><b>+ Ở vị trí cân bằng:</b> v đạt cực đại => W<sub style="font-size: 11px">đ</sub> đạt cực đại</p>
     <p><b>+ Khi vật đi từ vị trí cân bằng đến biên độ:</b> v giảm dần => W<sub style="font-size: 11px">đ</sub> giảm dần từ cực đại xuống 0</p>
     <p><b>+ Khi vật đi từ biên độ về vị trí cân bằng:</b> v tăng dần => W<sub style="font-size: 11px">đ</sub> tăng dần từ 0 lên đến cực đại</p>
-    <li style="display: flex; justify-content: end;"><a href="#goback" onclick="GoBackFunction2()" id="backbtn2">>>>Quay lui<<<</a></li>
     <h2 class="heading_2">II.THẾ NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</h2>
     <p>- Thế năng trong dao động điều hòa được tính theo công thức:</p>
     <p class="important_1"><b>W<sub style="font-size: 11px">t</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px;">2</sup>x<sup style="font-size:11px;">2</sup> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size:11px">2</sup>A<sup style="font-size:11px">2</sup>cos<sup style="font-size:11px">2</sup>(ωt + φ<sub style="font-size: 11px">0</sub>) <i style="color: blue">vì x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>)</i></b></p>
@@ -86,7 +90,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgb
     <p><b>+ Ở vị trí cân bằng:</b> x = 0 => W<sub style="font-size: 11px">t</sub> = 0</p>
     <p><b>+ Khi vật đi từ vị trí cân bằng đến biên độ: </b>li độ tăng dần theo thời gian => W<sub style="font-size: 11px">t</sub> tăng từ 0 đến cực đại</p>
     <p><b>+ Khi vật đi từ biên độ đến vị trí cân bằng:</b> li độ giảm dần theo thời gian => W<sub style="font-size:11px">t</sub> giảm dần từ cực đại xuống 0</p>
-    <li style="display: flex; justify-content: end;"><a href="#goback" onclick="GoBackFunction2()" id="backbtn2">>>>Quay lui<<<</a></li>
     <h2 class="heading_2">III.CƠ NĂNG TRONG DAO ĐỘNG ĐIỀU HÒA</h2>
     <p>+ Công thức của cơ năng trong dao động:</p>
     <p>- W = W<sub style="font-size: 11px">t</sub> + W<sub style="font-size: 11px">đ</sub> = <span>$$\frac{1}{2}$$</span>mω<sup style="font-size: 11px">2</sup>A<sup style="font-size: 11px">2</sup></p>
@@ -100,7 +103,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgb
     <li style="display: flex; justify-content: end;"><a href="#goback" onclick="GoBackFunction3()" id="backbtn3">>>>Quay lui<<<</a></li>
     <h2 class="heading_2"><b>MỞ RỘNG: KHẢO SÁT DAO ĐỘNG ĐIỀU HÒA CỦA CON LẮC LÒ XO</b></h2>
     <b>+ Thế năng đàn hồi:</b>
-    <p style="color: red; font-weight: bold;">W<sub style="font-size: 11px">t</sub> = <span>$$\frac{1}{2}$$</span>kx<sup style="font-size: 11px">2</sup>(với k là độ cứng của lò xo)</p>
+    <p class="important_1">W<sub style="font-size: 11px">t</sub> = <span>$$\frac{1}{2}$$</span>kx<sup style="font-size: 11px">2</sup>(với k là độ cứng của lò xo)</p>
     <b>+ Động năng lò xo:</b>
     <p style="color: red"><b>W<sub style="font-size: 11px">đ</sub> = <span>$$\frac{1}{2}$$</span>k(A<sup style="font-size: 11px">2</sup> - x<sup style="font-size: 11px">2</sup>)</b></p>
     <b>+ Cơ năng lò xo:</b>
@@ -110,7 +113,6 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 12%, rgba(4,137,150,1) 13%, rgb
         <img src="images/con-lac-lo-xo.gif" style="width: 400px">
         <img src="images/loxo2.png" style="width: 300px">   
     </div>  
-    <li style="display: flex; justify-content: end;"><a href="#goback" onclick="GoBackFunction4()" id="backbtn4">>>>Quay lui<<<</a></li>
   </div>
 </body>
 </html>
