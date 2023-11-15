@@ -9,9 +9,9 @@
   height: 10rem;
 }
 .flex-row img {
-  height: 100%;
-  width: auto;
-  padding: 40px;
+  width: 300px;
+  padding-left: 40px;
+  height: 200px;
 }
 .bold_styles{
   font-weight: bold;
@@ -27,7 +27,7 @@
 }
 
 .heading_1 {
-  color: #39A7FF;
+  color: green;
   font-weight: bold;
   margin: 10px;
   font-size: 40px;
@@ -60,7 +60,7 @@
 
 div.content {
   margin-left: 30px;
-  margin-top: 5px
+  margin-top: 70px;
   padding: 1px 16px;
   height: 100%;
   font-weight: bold;
@@ -105,4 +105,13 @@ div.content {
   font-weight: bold;
   font-size: 28px;
   margin: 25px; 
+}
+.normal_2{
+  color: black;
+  font-weight: bold;
+}
+.main_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
